@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+
+.oom{
+        display: none;
+    }
+
+.coco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.jo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.btn{
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #BA4270;
+    color: white;
+}
+
+.font{
+    font-size: 72px;
+    color: #36536B;
+}
+
+.suu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fofo{
+    font-size: 48px;
+    color: #36536B;
+}
+
+.gooo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ko{
+    width: 106px;
+    height: 106px;
+    background-color:#36536B;
+    border-radius: 9999px;
+     text-align: center;
+     padding-top: 30px;
+}
+
+.oooo{
+    color:#36536B;
+    margin-top: 50px;
+}
+
+.joooo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.opl{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+
+.opppp{
+    background-color: #36536B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin-top: 120px;
+}
+
+
+@media(max-width:999px){
+   
+    .suu{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+
+    }
+
+.coco{
+    padding: 20px 20px;
+}
+
+    .gooo{
+        flex-direction: column;
+        
+        margin-top: 30px;
+    }
+
+    .joooo{
+        margin-top: 60px;
+    }
+}
+
+
+@media(max-width:665px){
+    .joooo{
+        flex-direction: column;
+        row-gap: 160px;
+    }
+
+    .font{
+        text-align: center;
+    }
+    .coco .jo{
+        display: none;
+    }
+    .oom{
+        display: block;
+    }
+
+
+    .opppp{
+        flex-direction: column;
+        display: flex;
+
+
+    }
+
+  
+    .opl{
+        flex-direction: column;
+        display: flex;
+    }
+}
